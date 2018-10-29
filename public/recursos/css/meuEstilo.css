@@ -1,0 +1,109 @@
+body{
+    background: #f4f4f4;
+}
+
+/*menu top da pagina*/
+.navbar{
+    min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav >li > a, .navbar-brand{
+    padding-top: 6px !important;
+    padding-bottom: 0 !important;
+    height: 33px;
+}
+
+.navbar-default {
+  background-color: #ffd700;
+  border-color: #00abb2;
+}
+.navbar-default .navbar-brand {
+  color: #2a8ea7;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #2a8ea7;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #2a8ea7;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #00abb2;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #00abb2;
+}
+.navbar-default .navbar-toggle {
+  border-color: #00abb2;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #00abb2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2a8ea7;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #2a8ea7;
+}
+.navbar-default .navbar-link {
+  color: #2a8ea7;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+ul.nav a:hover { 
+    color: #fff !important; 
+    background-color: #00abb2 !important;
+}
+
+.main-color-bg{
+    background-color: #00abb2 !important;
+        border-color: #ffd700 !important;
+        color: #ffffff !important;
+}
+/*cabecalho */
+#header{
+    background: #333333;
+    color: #ffffff;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+
+#header .accoes{
+    padding-top: 15px
+}
+
+/*copiado do https://work.smarchal.com/twbscolor/ */
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #2a8ea7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #00abb2;
+  }
+}
